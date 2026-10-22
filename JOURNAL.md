@@ -25,3 +25,5 @@ We also created a survey to help gauge if people pay attention to where they dep
 Finally for today, we created a rough CAD model of what we want the final product to look like. This was not made to show technical specifications, but rather to help visualize the concept:
 
 <img width="512" height="279" alt="image" src="https://github.com/user-attachments/assets/6eb3270b-e953-4728-98cf-05a3e44a44f0" />
+
+-Rahdeen Sigari
