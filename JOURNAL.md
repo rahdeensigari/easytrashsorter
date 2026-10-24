@@ -37,6 +37,7 @@ Necessary:
 * A webcam to take a picture of each piece of trash
 * A light so every picture looks the same
 * A Claude API to run Haiku 5.5 on the Pi
+
 We don't need to buy a motor or wires, since we already have what we need.
  
 I also planned how everything connects. The webcam plugs straight into the Pi with a USB cable, and the light allows the camera to send proper images to the Pi.
