@@ -36,11 +36,12 @@ Necessary:
  
 * A webcam to take a picture of each piece of trash
 * A light so every picture looks the same
+* A Claude API to run Haiku 5.5 on the Pi
 We don't need to buy a motor or wires, since we already have what we need.
  
 I also planned how everything connects. The webcam plugs straight into the Pi with a USB cable, and the light allows the camera to send proper images to the Pi.
  
-Finally for today, I wrote a rough first version of the code for the Pi. It is not final, but it gives us something to build on. The code takes a picture of the item, decides if it is recycling or trash, and sends a signal for which bin it should go into. It also saves the result of every sort in a file, and in test mode we can mark each sort as right or wrong. This will let us calculate our accuracy and see if we hit our 85% goal.
+Finally for today, I used Claude to help me write a rough first version of the code for the Pi. It is not final, but it gives us something to build on. The code takes a picture of the item, decides if it is recycling or trash, and sends a signal for which bin it should go into. It also saves the result of every sort in a file, and in test mode we can mark each sort as right or wrong. This will let us calculate our accuracy and see if we hit our 85% goal.
  
 I also looked at two ways for the Pi to decide what an item is:
  
