@@ -27,3 +27,24 @@ Finally for today, we created a rough CAD model of what we want the final produc
 <img width="512" height="279" alt="image" src="https://github.com/user-attachments/assets/6eb3270b-e953-4728-98cf-05a3e44a44f0" />
 
 -Rahdeen Sigari
+
+# October 23 - Raspberry Pi Parts List, Setup Plan, Starter Code
+ 
+We decided to focus on the Raspberry Pi, a tiny computer that will act as the brain of our sorter. I used Claude, an AI assistant, to help me research what parts we need and how the Pi works. We already have a Pi, a memory card, and a power cord for it, so I made a list of the other parts we need for the prototype:
+ 
+Necessary:
+ 
+* A webcam to take a picture of each piece of trash
+* A light so every picture looks the same
+We don't need to buy a motor or wires, since we already have what we need.
+ 
+I also planned how everything connects. The webcam plugs straight into the Pi with a USB cable, and the light allows the camera to send proper images to the Pi.
+ 
+Finally for today, I wrote a rough first version of the code for the Pi. It is not final, but it gives us something to build on. The code takes a picture of the item, decides if it is recycling or trash, and sends a signal for which bin it should go into. It also saves the result of every sort in a file, and in test mode we can mark each sort as right or wrong. This will let us calculate our accuracy and see if we hit our 85% goal.
+ 
+I also looked at two ways for the Pi to decide what an item is:
+ 
+* A program we train ourselves with our own photos, which works without internet
+* A large AI program, which can recognize more items but needs internet
+
+-Eeshan Pathak
