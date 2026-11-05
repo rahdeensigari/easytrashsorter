@@ -71,4 +71,29 @@ Then I realized that different places have different trash and recycling laws, s
 Finally, I realized that our can needs to work on its own, without depending on the internet. Next time, we will go back to training our own model to recognize items from pictures.
  
 -Eeshan Pathak
+
+# November 4 - Local AI, Rules App, Pi Launcher
  
+Today I changed our sorter from using the Claude AI over the internet to using a local AI that runs on the Pi itself, and I used Claude to code this entire project. I trained the local AI with several images from TrashNet, a trash image collection on GitHub. Then I tested it to make sure it could tell different types of trash apart correctly.
+ 
+I then made an app that can switch between different sets of recycling rules (called rulesets), since every city has different recycling laws. There are three ways to use it:
+ 
+* Pick a preset that already has the recycling laws from a city
+* Upload a document to add laws and recycling rules from other cities
+* Write our own custom recycling rules
+
+The website saves these presets inside the app. I made 5 versions of the app to make it easier to use and understand for everyone.
+ 
+After that, I made a launcher on the Pi so we can start the website, retrain the AI, and test it. The launcher has 5 functions:
+ 
+1. Launch the app so it works on your Wi-Fi network
+2. Launch a public link so the app can be used on the public internet
+3. Run the trash sorter itself
+4. Retrain the AI using a set of images
+5. Test the camera
+
+Finally, I made one last change to the app to make it look better and more pleasing to use.
+ 
+Our main problem is that every time we launch the website from the Pi, the web address changes. We are deciding between two options: keep the changing address and make it easier to open with a QR code, or buy a permanent domain (a web address that doesn't change) on Cloudflare. We will focus on this problem next time.
+ 
+-Eeshan Pathak
