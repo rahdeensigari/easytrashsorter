@@ -94,7 +94,7 @@ After that, I made a launcher on the Pi with 5 functions:
 
 Finally, I made a logo for our website and made the website more aesthetically pleasing.
 
-I need to buy a couple of items because the Pi keeps overheating:
+I need to buy a few items because the Pi keeps overheating:
 
 * Cooling pads
 * A fan
