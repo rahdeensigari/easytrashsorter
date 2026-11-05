@@ -82,9 +82,9 @@ I then made an app that can switch between different sets of recycling rules (ca
 * Upload a document to add laws and recycling rules from other cities
 * Write our own custom recycling rules
 
-The website saves these presets inside the app. I made 5 versions of the app to make it easier to use and understand for everyone.
+The website saves these presets inside the app. I had to make 5 versions of the app to give it a better user interface.
  
-After that, I made a launcher on the Pi so we can start the website, retrain the AI, and test it. The launcher has 5 functions:
+After that, I made a launcher on the Pi with 5 functions:
  
 1. Launch the app so it works on your Wi-Fi network
 2. Launch a public link so the app can be used on the public internet
@@ -92,8 +92,14 @@ After that, I made a launcher on the Pi so we can start the website, retrain the
 4. Retrain the AI using a set of images
 5. Test the camera
 
-Finally, I made one last change to the app to make it look better and more pleasing to use.
+Finally, I made a logo for our website and made the website more aesthetically pleasing.
+
+I need to buy a couple of items because the Pi keeps overheating:
+
+* Cooling pads
+* A fan
+* A heatsink
  
-Our main problem is that every time we launch the website from the Pi, the web address changes. We are deciding between two options: keep the changing address and make it easier to open with a QR code, or buy a permanent domain (a web address that doesn't change) on Cloudflare. We will focus on this problem next time.
+Our main problem now is that every time we launch the website from the Pi, the web address changes. We are deciding between two options: keep the changing address and make it easier to open with a QR code, or buy a permanent domain (a web address that doesn't change) on Cloudflare. We will focus on this problem next time.
  
 -Eeshan Pathak
