@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=EZtrash
-Comment=Open the sorter menu
-Exec=lxterminal --title="EZtrash" --geometry=100x30 -e bash -c "~/Desktop/start.sh"
-Icon=eztrash
-Terminal=false
-Categories=Utility;
