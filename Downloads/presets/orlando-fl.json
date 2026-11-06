@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "city": "Orlando, FL",
+  "created": "2026-11-04T23:41:16",
+  "source_name": "Official city page (orlando.gov What Goes Where), read Nov 2026",
+  "contacts": {
+    "recycling": "407-246-2314",
+    "hazardous": "407-246-2314"
+  },
+  "rules": {
+    "aluminum_steel_can": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "spray_can": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "plastic_bottle": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "plastic_container": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "plastic_cup": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "plastic_bag": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Orlando: plastic bags harm recycling machinery."
+    },
+    "cardboard": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "paper": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "newspaper": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "paper_cup": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "carton": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "glass": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Orlando: empty and clean, lids removed."
+    },
+    "cigarette_butt": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "gloves_masks": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "medicine": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "sharps": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "electronics": {
+      "bin": "special",
+      "reason": "dropoff",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "cables": {
+      "bin": "special",
+      "reason": "dropoff",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "battery": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "light_bulb": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "building_material": {
+      "bin": "special",
+      "reason": "dropoff",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Not addressed on the city's page; safe default. Check with the city."
+    },
+    "other_trash": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    }
+  }
+}

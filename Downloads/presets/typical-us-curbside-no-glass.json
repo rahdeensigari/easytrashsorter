@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "city": "Typical US curbside (no glass)",
+  "created": "2026-11-04T23:12:22",
+  "source_name": "A common pattern, NOT a specific city. Check your city's list.",
+  "contacts": {
+    "recycling": "",
+    "hazardous": ""
+  },
+  "rules": {
+    "aluminum_steel_can": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "spray_can": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "plastic_bottle": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "plastic_container": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "plastic_cup": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "plastic_bag": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": "Plastic bags and film usually go to store drop-off bins, not the curbside cart."
+    },
+    "cardboard": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "paper": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "newspaper": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "paper_cup": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "carton": {
+      "bin": "recycling",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "glass": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "cigarette_butt": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "gloves_masks": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "medicine": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "sharps": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "electronics": {
+      "bin": "special",
+      "reason": "dropoff",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "cables": {
+      "bin": "special",
+      "reason": "dropoff",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "battery": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "light_bulb": {
+      "bin": "special",
+      "reason": "hazardous",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "building_material": {
+      "bin": "special",
+      "reason": "dropoff",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    },
+    "other_trash": {
+      "bin": "trash",
+      "reason": "",
+      "status": "manual",
+      "evidence": "",
+      "quote_verified": false,
+      "note": ""
+    }
+  }
+}
