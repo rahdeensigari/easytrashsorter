@@ -125,3 +125,51 @@ I also set up a QR code that can be scanned to open the website. It shows up in 
 Anyone can scan the QR code with their phone camera to open the website. They still need the access code to change any trash and recycling rules.
 
 -Eeshan Pathak
+
+# November 7 - Reduction Calcuations
+
+I'm going to assume the maximum mass that the sorter will have to deal with at any time is 0.5kg. Additionally, I'm also going to make the tray be 240mm wide, meaning that the furthest away an object can be is 120mm. First I can calculate gravitational force acting upon the tray:
+
+F = 0.5kg * 9.81m/s^2 = 4.905N
+
+Then, knowing that the trash is going to be a maximum of 120mm away from the center I can calculate the holding torque:
+
+τ = 4.905N * 0.12m = 0.589 Nm
+
+Meaning that the stepper needs to produce at least 0.589Nm just to stop the object from back driving the tray.
+
+I of course also need to account for acceleration, first I need the moment of inertia of the object, which I can assume to be a single point of force:
+
+I = 0.5kg * (0.12m)^2 = 0.0072 kg*m^2
+
+And the moment of inertia of the plate itself:
+
+I = (1/12) * 0.2kg * (0.24m)^2 = 0.00096 kg*m^2
+
+Meaning that the total inertia is 0.00816 kg*m^2
+
+So I know how much torque I need to actually hold the object, but now I also need to know how much more torque I need to accelerate it to 35 degrees. My goal is to get to the target in around one second.
+
+I first need to calculate angular displacement to then find acceleration torque. I'm using a target time of one second here:
+
+(Where 0.6019 is 35 degrees in radians)
+
+α = 4(0.6019) / 1^2 = 2.4436 rad/s^2
+
+With that I can calculate the acceleration torque:
+
+τ = (0.00816 kg*m^2) * (2.4436 rad/s^2) = 0.0199 Nm
+
+Adding those two torque values gives us the theoretical torque requirement:
+
+0.589Nm + 0.0199Nm = 0.609 Nm
+
+With that, assuming that the motor has a torque of around 0.22 Nm when running (based off of the manufacturer torque curve) and the efficiency is 80%, I can model how different gear ratios effect output torque:
+
+τ(x) = 0.22Nm * x * 0.80
+
+τ(9) = 1.584 Nm
+
+If I assume a nominal torque output of 1.50 Nm, I can find that around 9:1 is the optimal reduction ratio to achieve my ideal torque output while preserving speed. This also gives us a safety margin of around 2.6.
+
+- Rahdeen Sigari
