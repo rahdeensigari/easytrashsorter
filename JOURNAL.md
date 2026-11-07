@@ -172,4 +172,4 @@ With that, assuming that the motor has a torque of around 0.22 Nm when running (
 
 If I assume a nominal torque output of 1.50 Nm, I can find that around 9:1 is the optimal reduction ratio to achieve my ideal torque output while preserving speed. This also gives us a safety margin of around 2.6.
 
-- Rahdeen Sigari
+-Rahdeen Sigari
