@@ -104,8 +104,24 @@ Our main problem now is that every time we launch the website from the Pi, the w
  
 -Eeshan Pathak
 
-# November 6 - Planning for CAD
+# November 6 - Planning for CAD, Permanent Link, QR Code
 
 My goal here is to make an actual functional CAD model that we can prototype. Of course, not a full fidelity version using industry parts that would be on something like this if it existed as a commercial product, but rather using simple and cheap parts that will still demonstrate the functional effectiveness of the sorter without being too complex or costing too much. I want to start by figuring out how to actually drive the tray that deposits trash in either bin. The easiest solution that we can do using parts that we already have on hand is to drive it using a 42-40 NEMA 17 stepper motor from an old Ender 3 3D printer as well as a L293D motor driver connected to our Raspberry Pi. The real problem is that standard stepper motors simply do not have a high enough torque output to effectively turn the tray while it's loaded with mass from the trash deposit without being back driven or stalling. To fix this, some sort of reduction must be placed between the motor and the tray.
 
 - Rahdeen Sigari
+
+Before today, the public link for the EZtrash website changed every time we started it, so we had to send people a new link each time. I set up a permanent link using Tailscale, a free service that gives the Raspberry Pi its own web address that never changes. Now the website always has the same link, and it works from any phone or computer, even on a different network.
+
+This required updating two parts of our project:
+
+* The launcher: I added options to set up Tailscale, turn the public link on, and turn it off. The launcher also shows the link on its screen.
+* The app: it now finds the Tailscale link by itself and shows it when it starts.
+
+I also set up a QR code that can be scanned to open the website. It shows up in two places:
+
+* On the website, using a QR button at the top
+* In the terminal when the app starts
+
+Anyone can scan the QR code with their phone camera to open the website. They still need the access code to change any trash and recycling rules.
+
+-Eeshan Pathak
